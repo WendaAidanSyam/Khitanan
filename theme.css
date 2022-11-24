@@ -24,17 +24,20 @@ html, body{
 .tm-slide-content-div {
 	background-color: rgba(255,255,255,0.8);
 	border-radius: 20px;	
+	margin-left: 2%;
+    margin-right: 2%; 
     margin-top: -10px;
+    max-width: 600px; 
     padding: 4%;
-    
+    width: 100%;   
 }
 
 .img {
     border: 4px solid #575D63;
     margin: 20px;
     padding: 10px;
-    width: 150px;
-    height: 90px;
+    width: 180px;
+    height: 115px;
   }
 
 .heading {
@@ -76,7 +79,7 @@ html, body{
     color: rgb(0, 0, 0);
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: normal;
     text-shadow: 0 0 10px rgb(230, 230, 230);
 }
@@ -85,6 +88,10 @@ html, body{
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+}
+
+.textIsi{
+    font-size: 15px;
 }
 
 .button {
@@ -131,13 +138,13 @@ html, body{
 }
 .sub-heading{
     font-family: 'Caveat', cursive;
-    font-size: 3em;
+    font-size: 35px;
     margin-top: 2em;
 }
 
 .sub-heading2{
     font-family: 'Caveat', cursive;
-    font-size: 2em;
+    font-size: 27px;
 }
 
 .details{
@@ -239,8 +246,8 @@ main {
 .date-grid button {
     position: relative;
     border: 0;
-    width: 4.5ch;
-    height: 4.5ch;
+    width: 3.5ch;
+    height: 3.5ch;
     border-radius: 50%;
     background-color: transparent;
     color: var(--blue-grey-600);
@@ -258,4 +265,3 @@ main {
     background-color: var(--teal-100);
     color: var(--teal-900);
 }
-
